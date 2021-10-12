@@ -4,6 +4,7 @@ import com.dream.springcloud.dao.DeptDao;
 import com.dream.springcloud.pojo.Dept;
 import com.dream.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

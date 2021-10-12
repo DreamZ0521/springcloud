@@ -1,9 +1,11 @@
 package com.dream.springcloud.service;
 
 import com.dream.springcloud.pojo.Dept;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public interface DeptService {
 
     //添加数据

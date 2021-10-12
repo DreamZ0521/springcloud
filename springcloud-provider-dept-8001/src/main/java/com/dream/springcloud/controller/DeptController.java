@@ -3,6 +3,7 @@ package com.dream.springcloud.controller;
 import com.dream.springcloud.pojo.Dept;
 import com.dream.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,7 +29,7 @@ public class DeptController {
         return deptService.queryById(id);
     }
 
-    @PostMapping("/dept/list")
+    @GetMapping("/dept/list")
     public List<Dept> queryAll(){
         return deptService.queryAll();
     }
