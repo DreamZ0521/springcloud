@@ -1,4 +1,4 @@
-package com.deream.springcloud.pojo;
+package com.dream.springcloud.pojo;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,7 +14,7 @@ import java.io.Serializable;
  */
 @Data//
 @NoArgsConstructor//无惨构造器
-@Accessors//链式写法
+@Accessors (chain = true)//链式写法
 public class Dept implements Serializable {//Dept  实体类  orm  类表关系映射
 
     private long deptno;//主键
