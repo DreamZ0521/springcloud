@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"  ?>
-<!DOCTYPE configuration
-        PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
-<configuration>
-<!--    开启二级缓存  一级默认的-->
-<settings>
-    <setting name="CacheEnable" value="true"/>
-</settings>
-</configuration>

@@ -3,14 +3,6 @@
 server:
   port: 8001
 
-#  mybatis配置
-
-#mybatis:
-#  type-aliases-package: com.dream.springcloud.pojo
-#  config-location: classpath:mybatis/mybatis-config.xml
-#  mapper-locations: classpath:mybatis/mapper/*.xml
-#  configuration:
-#    map-underscore-to-camel-case: true
 
 # spring配置
 
